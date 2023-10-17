@@ -1,36 +1,45 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## About the Project
+
+This repository is apart of a larger senior seminar/ thesis project at Hamilton College. We are collaborating with the [Central Oneida County Volunteer Ambulance Corps](https://www.cocvac.org/) to scrape 911 call data, analyse it, and display reports in a UI in order to understand where future EMS resources should be devoted.
+
+## Project Steps
+
+1.) Create a script that runs daily to:
+
+- Scrape [911 call data](https://ocgov.net/departments/emergency-services/911-summary-report/)
+- Convert PDFs into tabular form using tabula. See code in [this](https://github.com/sydneyetran/COCVAC_code) repository
+
+  2.) Create a Power Query and gateway in Power BI to automatically upload daily excel file to report
+
+  3.) Create queries in Power BI to analyze data
+
+  4.) Embed Power BI report into a UI and add additionally important info to the UI (ex. documentation, raw data, etc.)
+
 ## Getting Started
 
 First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## extra info
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+here is some information on our personal project:
 
-## Learn More
+(this part can be deleted, it is more just meant as notes for now):
+to add a new page, make a folder with the route name (ie about if the route is /about) and add a page.tsx with code for the page
+
+to run on ngrok, enter this command:
+
+```bash
+ngrok http --domain=joint-uniformly-goat.ngrok-free.app 80
+```
 
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
