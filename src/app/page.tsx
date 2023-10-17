@@ -5,8 +5,6 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="text-2xl">Welcome to our page</div>
       <br></br>
-      {/* <h1>hello there</h1> */}
-      {/* <p> To view the data below, log in with madmon@wjmxj.onmicrosoft.com</p> */}
       <div>Sample Report from Power BI:</div>
       {/* <iframe
         title="test of power query"
