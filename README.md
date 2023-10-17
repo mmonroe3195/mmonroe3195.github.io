@@ -19,6 +19,12 @@ This repository is apart of a larger senior seminar/ thesis project at Hamilton 
 
 ## Getting Started
 
+### To view the published site:
+
+Open [https://cocvac-hamilton2023.github.io/thesis_ui/](https://cocvac-hamilton2023.github.io/thesis_ui/) with your browser to see the finished product.
+
+### To develop:
+
 First, run the development server:
 
 ```bash
@@ -29,16 +35,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## extra info
 
-here is some information on our personal project:
-
 (this part can be deleted, it is more just meant as notes for now):
+
 to add a new page, make a folder with the route name (ie about if the route is /about) and add a page.tsx with code for the page
-
-to run on ngrok, enter this command:
-
-```bash
-ngrok http --domain=joint-uniformly-goat.ngrok-free.app 80
-```
 
 To learn more about Next.js, take a look at the following resources:
 
