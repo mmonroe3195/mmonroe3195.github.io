@@ -6,12 +6,6 @@ export default function Home() {
       <div className="text-2xl">Welcome to our page</div>
       <br></br>
       <div>Sample Report from Power BI:</div>
-      {/* <iframe
-        title="test of power query"
-        width="1140"
-        height="541.25"
-        src="https://app.powerbi.com/reportEmbed?reportId=774d3287-1c3a-45ad-8152-d42d0c417a66&autoAuth=true&ctid=e4ca8b84-dade-4c5a-a7a0-df75f080a0b9"
-      ></iframe> */}
       <iframe
         title="COCVAC_Report"
         width="1140"
