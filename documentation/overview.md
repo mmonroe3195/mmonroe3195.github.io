@@ -1,4 +1,4 @@
-Welcome to the documentation! This is intended to be a guide to set up all the components of our project.
+Welcome to the documentation! This is intended to be a guide to understand each component in our thesis project.
 
 ## About
 
