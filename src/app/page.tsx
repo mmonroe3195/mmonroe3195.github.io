@@ -1,11 +1,29 @@
-import Link from "next/link";
+"use client";
+import { useEffect, useState } from 'react';
+import Markdown from '../../node_modules/markdown-to-jsx/dist/index';
 
-export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center p-24">
-      <div className="text-2xl">Welcome to our page</div>
-      <Link href="/about">Click here to learn about the developers!</Link>
-      <Link href="/report">Click here to view a sample report!</Link>
-    </main>
-  );
+function Home() {
+    const file_name = 'set.md';
+    const [post, setPost] = useState('');
+
+    useEffect(() => {
+        import(`./${file_name}`)
+            .then(res => {
+                fetch(res.default)
+                    .then(res => res.text())
+                    .then(res => setPost(res))
+                    .catch(err => console.log(err));
+            })
+            .catch(err => console.log(err));
+    });
+
+    return (
+        <div className="container">
+            <Markdown>
+                {post}
+            </Markdown>
+        </div>
+    );
 }
+
+export default Home;
