@@ -4,8 +4,15 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
       <div className="text-2xl">Welcome to our page</div>
+      <br />
+      <div>
+        This is a site created for COCVAC to display reports created in PowerBi
+        using 911 call data from Oneida County. Please visit the{" "}
+        <Link href="/report">Report </Link>
+        page to learn more!
+      </div>
+      <br />
       <Link href="/about">Click here to learn about the developers!</Link>
-      <Link href="/report">Click here to view a sample report!</Link>
     </main>
   );
 }

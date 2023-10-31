@@ -28,5 +28,8 @@ body {
 
 a {
   color: goldenrod;
-  margin: 3rem;
+}
+
+h1 {
+  font-size: large;
 }
