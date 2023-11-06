@@ -3,11 +3,11 @@ export default function Report() {
     <div className="flex min-h-screen flex-col items-center justify-between p-24">
       <div>Maps of where different calls occured:</div>
       <iframe
-        title="COCVAC_Report"
         className="m-1"
+        title="COCVAC_Report"
         width="1140"
         height="541.25"
-        src="https://app.powerbi.com/reportEmbed?reportId=bd85bfd8-e1b3-46bb-a722-c60e21738268&autoAuth=true&ctid=f9ea7f3e-de28-46d1-b63d-91d3086fff91"
+        src="https://app.powerbi.com/view?r=eyJrIjoiNDI4N2NiNzgtNjY2ZS00Y2E1LThkZWUtYmU4YzU0NzJkNmQzIiwidCI6ImY5ZWE3ZjNlLWRlMjgtNDZkMS1iNjNkLTkxZDMwODZmZmY5MSIsImMiOjN9"
       ></iframe>
       <br></br>
       <div>Charts of different types of calls:</div>
