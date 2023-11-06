@@ -11,10 +11,11 @@ export default function about() {
         Oregon upon graduation to work as a software engineer at Nike. My
         favorite coding language is Python and outside of computer science
         classes, I enjoy talking environmental studies classes. At school, you
-        can typically find me climbing at the school’s rock wall, holed up in
-        the science center coding, or cycling around the farms nearby Hamilton’s
-        campus.
+        can typically find me climbing at the school&apos;s rock wall, holed up
+        in the science center coding, or cycling around the farms nearby
+        Hamilton&apos;s campus.
       </div>
+      <br />
       <h2>Sydney</h2>
       <div>
         Hi, I'm also senior computer science major at Hamilton College, and I
@@ -24,6 +25,9 @@ export default function about() {
         other departments. Some activities I enjoy are playing cello, swimming,
         and playing pickleball. I also love trying new sports and activities.
       </div>
+      <br />
+      <h2>Charlotte</h2>
+      <div>Hi!</div>
     </main>
   );
 }
