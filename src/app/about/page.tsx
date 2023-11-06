@@ -12,6 +12,13 @@ export default function about() {
         At school, you can typically find me climbing at the school’s rock wall, holed up in 
         the science center coding, or cycling around the farms nearby Hamilton’s campus.  
 </div>
+<h2>Sydney</h2>
+      <div>Hi, I'm also senior computer science major at Hamilton College, and I minor in 
+        Africana Studies. I grew up in central New Jersey. I am interested in doing UX Design 
+        or software engineering after I graduate. At Hamilton, I've enjoyed taking introductory 
+        classes to explore the other departments. Some activities I enjoy are playing cello, 
+        swimming, and playing pickleball. I also love trying new sports and activities.
+</div>
     </main>
   );
 }
