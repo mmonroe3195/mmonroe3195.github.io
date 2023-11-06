@@ -18,12 +18,13 @@ export default function about() {
       <br />
       <h2>Sydney</h2>
       <div>
-        Hi, I'm also senior computer science major at Hamilton College, and I
-        minor in Africana Studies. I grew up in central New Jersey. I am
+        Hi, I&apos;m also senior computer science major at Hamilton College, and
+        I minor in Africana Studies. I grew up in central New Jersey. I am
         interested in doing UX Design or software engineering after I graduate.
-        At Hamilton, I've enjoyed taking introductory classes to explore the
-        other departments. Some activities I enjoy are playing cello, swimming,
-        and playing pickleball. I also love trying new sports and activities.
+        At Hamilton, I&apos;ve enjoyed taking introductory classes to explore
+        the other departments. Some activities I enjoy are playing cello,
+        swimming, and playing pickleball. I also love trying new sports and
+        activities.
       </div>
       <br />
       <h2>Charlotte</h2>
