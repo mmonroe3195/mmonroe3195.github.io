@@ -8,7 +8,7 @@ Power BI Desktop is a requirement for this project since we do all our analytics
 
 Make sure to install the following:
 - [Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
-- [Python](https://www.python.org/downloads/). We reccomend installing the newest version of Python. For help with installation, refer to the [Python Installation Video](https://www.youtube.com/watch?time_continue=163&v=Pi0RK7GJIKg&embeds_referring_euri=https%3A%2F%2Fwww.simplilearn.com%2F&source_ve_path=Mjg2NjY&feature=emb_logo) by SimpliLearn.
+- [Python](https://www.python.org/downloads/). We recommend installing the newest version of Python. For help with installation, refer to the [Python Installation Video](https://www.youtube.com/watch?time_continue=163&v=Pi0RK7GJIKg&embeds_referring_euri=https%3A%2F%2Fwww.simplilearn.com%2F&source_ve_path=Mjg2NjY&feature=emb_logo) by SimpliLearn.
 - [Pip](https://pip.pypa.io/en/stable/installation/). This can be done when installing Python or can be installed separately.
 
 ## Daily Python Script
@@ -35,14 +35,19 @@ Once these steps are followed, it will be possible to access the completed repor
 
 Note: This section is still being written for now here is the bulleted version
 - Open up Power Query (Transform Data)
-- Click the error button under "911 Logs"
-- Look at "Applied Steps in the Top right corner
-- click on the "Source" step
-- Change the file path to where the excels now live (same path as where they are saved from the python script)
+- Click the error button under "911 Logs". This is located on the left hand on the Queries side bar under the Other Queries dropdown.
+- Look at "Applied Steps" in the top right corner
+- Click on the "Source" button. This will bring up the current folder path for the power query
+- Change the file path to where the Excel Workbooks are stored (the same path as where they are saved from the Python script)
+- Click the "Sample File" button. This is located on the left hand on the Queries side bar.
+- Click on the "Source" button. This will bring up the current folder path
+- Change the file path to where the Excel Workbooks are stored (the same path as where they are saved from the Python script) 
+
+Now that the new file path is saved, your power query should be up and running. If you encounter any issues with this, please refer to the [Microsoft Power Query Documentation](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-query-overview). The following section may also be helpful if you deem it necessary to set up a power query from scratch.
 
 ### Power Query (Only applicable if setting up the Power Query by scratch)
 
-Following the [Microsoft Power Query Documentation](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-query-overview) is helpful to get started with a Power Query. In order to link the "911 Call Data" folder to Power BI, follow these steps:
+Following the [Microsoft Power Query Documentation](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-query-overview) is helpful to get started with a Power Query. This section of documentation is unlikely to be necessary for the initial set up of the project on a different computer. However, this additional documentation is added in case a new Power Query will be set up. In order to link a folder filled with Excel Workbooks to Power BI, follow these steps:
 
 - Click the "Transform data" button in the Queries section of the Power BI toolbar.
 - Choose the source of data import by clicking "New Source" from the New Query toolbar. Then click the "More..." button
