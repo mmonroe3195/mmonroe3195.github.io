@@ -23,6 +23,10 @@ This repository is a part of a larger senior seminar/ thesis project at Hamilton
 
 Open [https://cocvac-hamilton2023.github.io/thesis_ui/](https://cocvac-hamilton2023.github.io/thesis_ui/) with your browser to see the finished product.
 
+### Documentation
+
+To see more documentation, please navigate to our [documentation](https://github.com/cocvac-hamilton2023/thesis_ui/tree/main/documentation) folder
+
 ### To develop:
 
 First, run the development server:
