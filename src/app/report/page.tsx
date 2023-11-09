@@ -18,6 +18,7 @@ export default function Report() {
         height="541.25"
         src="https://app.powerbi.com/view?r=eyJrIjoiNjkwNzA2NTYtMTBlZC00ODNjLTlkMzktODQzNDNjMmE1NWY1IiwidCI6ImY5ZWE3ZjNlLWRlMjgtNDZkMS1iNjNkLTkxZDMwODZmZmY5MSIsImMiOjN9"
       ></iframe>
+      <br></br>
       <div>Charts of different types of calls:</div>
       <iframe
         className="m-1"
