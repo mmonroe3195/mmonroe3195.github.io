@@ -18,6 +18,9 @@ const Navbar = () => {
           <Link className="ml-12" href="/report">
             Reports
           </Link>
+          <Link className="ml-12" href="/documentation">
+            Documentation
+          </Link>
         </div>
       </div>
     </>
