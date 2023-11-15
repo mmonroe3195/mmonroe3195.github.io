@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <>
       <div className="w-full h-20 bg-green-950 sticky top-0">
-        <div className="flex items-center h-full">
+        <div className="flex items-center h-full text-yellow-500">
           <Link className="ml-10" href="https://www.cocvac.org/">
             <img src="logo.png" width={50} height={50} alt="COCVAC logo" />
           </Link>
