@@ -6,7 +6,7 @@ export default function Home() {
       <div className="text-2xl">Welcome to our page</div>
       <br />
       <div>
-        This is a site created for COCVAC to display reports created in PowerBi
+        This is a site created for COCVAC to display reports created in Power BI
         using 911 call data from Oneida County. Please visit the{" "}
         <Link href="/report">Report </Link>
         page to learn more!
