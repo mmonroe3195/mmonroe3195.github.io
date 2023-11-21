@@ -17,15 +17,15 @@ const menuItems: MenuItem[] = [
     children: [
       {
         title: "Overview",
-        route: "/overview",
+        route: "/documentation/overview",
       },
       {
         title: "Power BI Licenses",
-        route: "/power-bi-licenses",
+        route: "/documentation/power-bi-licenses",
       },
       {
         title: "Set Up",
-        route: "/set-up",
+        route: "/documentation/set-up",
       },
     ],
   },
@@ -39,13 +39,13 @@ const Navbar = () => {
           <Link className="ml-10" href="https://www.cocvac.org/">
             <img src="logo.png" width={50} height={50} alt="COCVAC logo" />
           </Link>
-          <Link className="ml-12" href="/">
+          <Link className="ml-12 hover:text-blue-400" href="/">
             Home
           </Link>
-          <Link className="ml-12" href="/about">
+          <Link className="ml-12 hover:text-blue-400" href="/about">
             About
           </Link>
-          <Link className="ml-12" href="/report">
+          <Link className="ml-12 hover:text-blue-400" href="/report">
             Reports
           </Link>
           <div className="ml-12">

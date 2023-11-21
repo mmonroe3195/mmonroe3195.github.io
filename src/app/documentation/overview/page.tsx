@@ -1,4 +1,4 @@
-export default function Documentation() {
+export default function Overview() {
     return (
       <main className="flex min-h-screen flex-col items-left p-24">
         <p>This Guide is intended to explain how to set up this project on a new computer</p>
