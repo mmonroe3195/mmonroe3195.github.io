@@ -1,5 +1,35 @@
+'use client';
 import React from "react";
 import Link from "next/link";
+import Dropdown from "../../dropdown";
+
+
+export interface MenuItem {
+  title: string | undefined;
+  route?: string;
+  children?: MenuItem[];
+}
+
+const menuItems: MenuItem[] = [
+  {
+    title: "Documentation",
+    route: "/",
+    children: [
+      {
+        title: "Overview",
+        route: "/overview",
+      },
+      {
+        title: "Power BI Licenses",
+        route: "/power-bi-licenses",
+      },
+      {
+        title: "Set Up",
+        route: "/set-up",
+      },
+    ],
+  },
+];
 
 const Navbar = () => {
   return (
@@ -18,9 +48,12 @@ const Navbar = () => {
           <Link className="ml-12" href="/report">
             Reports
           </Link>
-          <Link className="ml-12" href="/documentation">
-            Documentation
-          </Link>
+          <div className="ml-12">
+          {
+          menuItems.map((i) => 
+            <Dropdown item={i} />
+          )}
+        </div>
         </div>
       </div>
     </>
