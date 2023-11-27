@@ -1,8 +1,7 @@
-'use client';
+"use client";
 import React from "react";
 import Link from "next/link";
 import Dropdown from "../../dropdown";
-
 
 export interface MenuItem {
   title: string | undefined;
@@ -39,21 +38,20 @@ const Navbar = () => {
           <Link className="ml-10" href="https://www.cocvac.org/">
             <img src="logo.png" width={50} height={50} alt="COCVAC logo" />
           </Link>
-          <Link className="ml-12 hover:text-blue-400" href="/">
+          <Link className="ml-12 hover:text-yellow-200" href="/">
             Home
           </Link>
-          <Link className="ml-12 hover:text-blue-400" href="/about">
+          <Link className="ml-12 hover:text-yellow-200" href="/about">
             About
           </Link>
-          <Link className="ml-12 hover:text-blue-400" href="/report">
+          <Link className="ml-12 hover:text-yellow-200" href="/report">
             Reports
           </Link>
           <div className="ml-12">
-          {
-          menuItems.map((i) => 
-            <Dropdown item={i} />
-          )}
-        </div>
+            {menuItems.map((i) => (
+              <Dropdown item={i} />
+            ))}
+          </div>
         </div>
       </div>
     </>
