@@ -34,7 +34,7 @@ export default function Dropdown(props: Props) {
           {menuItems.map((item) => (
             <Link
               key={item.route}
-              className="hover:bg-zinc-300 hover:text-zinc-500 px-4 py-1"
+              className="hover:bg-green-900 hover:text-yellow-200 px-4 py-1"
               href={item?.route || ""}
               onClick={toggle}
             >
