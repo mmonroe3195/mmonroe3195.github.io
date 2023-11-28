@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function about() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
@@ -20,7 +18,7 @@ export default function about() {
       </div>
       <h2 className="text-2xl">COCVAC</h2>
       <br />
-      <Image
+      <img
         src="/cocvac-building.jpeg"
         width={800}
         height={800}

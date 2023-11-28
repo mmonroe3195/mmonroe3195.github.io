@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -13,7 +12,7 @@ export default function Home() {
         page to learn more!
       </div>
       <br />
-      <Image
+      <img
         src="/cocvac-hamilton-posed.jpg"
         width={500}
         height={500}
