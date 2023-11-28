@@ -13,7 +13,14 @@ Make sure to install the following:
 
 ## Daily Python Script
 
-This section will be updated later to reflect the most up to date information. PDFs will be scraped from the web and converted into Excel workbooks that will be stored in a folder called "911 Call Data". Make sure to remember the path that this file is saved to. This path will be needed later on. 
+This section will be updated later to reflect the most up to date information. PDFs will be scraped from the web and converted into Excel workbooks that will be stored in a folder called "911 Call Data". Make sure to remember the path that this file is saved to. This path will be needed later on.
+Packages needed to run the script:
+Jpype1 - version 1.4.1
+numpy - version 1.26.1
+pandas - version 2.1.2
+pip - version 23.3.`
+python-dateutil - version 2.8.2
+tabula-py - version 2.8.2
 
 ## Power BI
 
