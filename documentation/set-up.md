@@ -34,14 +34,15 @@ Once these steps are followed, it will be possible to access the completed repor
 ## Fixing the File Path for the Power Query
 
 Note: This section is still being written for now here is the bulleted version
-- Open up Power Query (Transform Data)
-- Click the error button under "911 Logs". This is located on the left hand on the Queries side bar under the Other Queries dropdown.
-- Look at "Applied Steps" in the top right corner
-- Click on the "Source" button. This will bring up the current folder path for the power query
-- Change the file path to where the Excel Workbooks are stored (the same path as where they are saved from the Python script)
-- Click the "Sample File" button. This is located on the left hand on the Queries side bar.
-- Click on the "Source" button. This will bring up the current folder path
-- Change the file path to where the Excel Workbooks are stored (the same path as where they are saved from the Python script) 
+1.  Open up Power Query by clicking the Transform Data button from the main toolbar
+2.  Click the error button under "911 Logs". This is located on the left hand on the Queries side bar under the Other Queries dropdown.
+3. Look at "Applied Steps" in the top right corner
+4. Click on the "Source" button. This will bring up the current folder path for the power query
+5. Change the file path to where the Excel Workbooks are stored (the same path as where they are saved from the Python script)
+6. Click the "Sample File" button. This is located on the left hand on the Queries side bar.
+7. Look at "Applied Steps" in the top right corner
+8. Click on the "Source" button. This will bring up the current folder path
+9. Change the file path to where the Excel Workbooks are stored (the same path as where they are saved from the Python script) 
 
 Now that the new file path is saved, your power query should be up and running. If you encounter any issues with this, please refer to the [Microsoft Power Query Documentation](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-query-overview). The following section may also be helpful if you deem it necessary to set up a power query from scratch.
 
