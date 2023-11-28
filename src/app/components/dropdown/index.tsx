@@ -25,7 +25,7 @@ export default function Dropdown(props: Props) {
   return (
     <>
       <div className="relative">
-        <button className="hover:text-blue-400" onClick={toggle}>
+        <button className="hover:text-yellow-200" onClick={toggle}>
           {item.title}
         </button>
         <div
