@@ -13,7 +13,7 @@ export default function Home() {
       </div>
       <br />
       <img
-        src="/cocvac-hamilton-posed.jpg"
+        src="cocvac-hamilton-posed.jpg"
         width={500}
         height={500}
         alt="Hamilton thesis students with COCVAC"
