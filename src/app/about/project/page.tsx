@@ -19,7 +19,7 @@ export default function about() {
       <h2 className="text-2xl">COCVAC</h2>
       <br />
       <img
-        src="/cocvac-building.jpeg"
+        src="https://github.com/cocvac-hamilton2023/thesis_ui/blob/main/cocvac-building.jpeg?raw=true"
         width={800}
         height={800}
         alt="COCVAC building"
