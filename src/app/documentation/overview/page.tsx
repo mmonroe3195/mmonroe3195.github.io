@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Overview() {
   return (
     <main className="flex min-h-screen flex-col items-left p-24">
@@ -9,9 +11,11 @@ export default function Overview() {
       <h2 id="about">About</h2>
       <p>
         Below is a diagram that explains how our project works.
-        <img
-          src="https://github.com/cocvac-hamilton2023/thesis_ui/blob/main/flow_chart.png?raw=true"
+        <Image
+          src="/flow_chart.png"
           alt="diagram for project steps."
+          width={1000}
+          height={1000}
         />
       </p>
       <h3 id="daily-python-script">Daily Python Script</h3>

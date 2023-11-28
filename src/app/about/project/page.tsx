@@ -20,7 +20,7 @@ export default function about() {
       </div>
       <h2 className="text-2xl">COCVAC</h2>
       <br />
-      <img
+      <Image
         src="/cocvac-building.jpeg"
         width={800}
         height={800}
