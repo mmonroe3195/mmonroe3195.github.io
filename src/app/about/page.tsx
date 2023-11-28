@@ -1,11 +1,9 @@
-import Image from "next/image";
-
 export default function about() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
       <h1>About the Developers!</h1>
       <div>We are 3 seniors at Hamilton College!</div>
-      <Image
+      <img
         src="hamilton-thesis-students.png"
         width={500}
         height={500}
@@ -64,7 +62,7 @@ export default function about() {
       </div>
       <h2 className="text-2xl">COCVAC</h2>
       <br />
-      <Image
+      <img
         src="cocvac-building.jpeg"
         width={800}
         height={800}

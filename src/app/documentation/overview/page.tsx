@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Overview() {
   return (
     <main className="flex min-h-screen flex-col items-left p-24">
@@ -11,7 +9,7 @@ export default function Overview() {
       <h2 id="about">About</h2>
       <p>
         Below is a diagram that explains how our project works.
-        <Image
+        <img
           src="https://github.com/cocvac-hamilton2023/thesis_ui/blob/main/flow_chart.png?raw=true"
           alt="diagram for project steps."
         />
