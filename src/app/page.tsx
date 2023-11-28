@@ -8,8 +8,8 @@ export default function Home() {
       <br />
       <div>
         This is a site created for COCVAC to display reports created in Power BI
-        using 911 call data from Oneida County. Please visit the{" "}
-        <Link href="/report">Report </Link>
+        using 911 call data from Oneida County. Please visit the
+        <Link href="/report"> Report </Link>
         page to learn more!
       </div>
       <br />

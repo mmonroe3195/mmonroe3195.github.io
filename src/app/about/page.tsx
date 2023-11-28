@@ -50,9 +50,8 @@ export default function about() {
       <h1>About the Project!</h1>
       <br />
       <div>
-        {" "}
         This project has been created for COCVAC in CPSCI-410 Senior Seminar
-        with Professor Morrison-Smith.{" "}
+        with Professor Morrison-Smith.
       </div>
       <br />
       <h2 className="text-2xl">CPSCI-410</h2>
@@ -73,7 +72,6 @@ export default function about() {
       />
       <br />
       <div>
-        {" "}
         The Central Oneida County Volunteer Ambulance Corps provides primary 911
         response in and around the towns, Villages and Hamlets of Kirkland,
         Westmoreland, Whitestown, Marshal, Augusta, Sangerfield. COCVAC also
