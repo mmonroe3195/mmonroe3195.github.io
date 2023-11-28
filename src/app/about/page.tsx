@@ -3,6 +3,7 @@ export default function about() {
     <main className="flex min-h-screen flex-col items-center p-24">
       <h1>About the Developers!</h1>
       <div>We are 3 seniors at Hamilton College!</div>
+      <img src="hamilton-thesis-students.png" width={500} height={500} alt="Hamilton thesis students with COCVAC" />
       <br/>
       <h2 className="text-2xl">Madison</h2>
       <div>
@@ -37,6 +38,7 @@ export default function about() {
         and philosophy courses.
       </div>
       <br/>
+      <br/>
       <h1>About the Project!</h1>
       <br/>
       <div> This project has been created for COCVAC in CPSCI-410 Senior Seminar with Professor Morrison-Smith. </div>
@@ -48,6 +50,9 @@ export default function about() {
         project is COCVAC.
       </div>
       <h2 className="text-2xl">COCVAC</h2>
+      <br/>
+      <img src="cocvac-building.jpeg" width={800} height={800} alt="COCVAC building" />
+      <br/>
       <div> The Central Oneida County Volunteer Ambulance Corps provides primary 911 response in and around the towns, Villages and 
         Hamlets of Kirkland, Westmoreland, Whitestown, Marshal, Augusta, Sangerfield. COCVAC also answers mutual aid requests for the Greater Utica Rome area.
         COCVAC is also responsible for a variety of other services such as interfacility transport, special event 

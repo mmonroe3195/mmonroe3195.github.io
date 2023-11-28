@@ -11,8 +11,10 @@ export default function Home() {
         <Link href="/report">Report </Link>
         page to learn more!
       </div>
-      <br />
-      <Link href="/about">Click here to learn about the developers!</Link>
+      <br/>
+      <img src="cocvac-hamilton-posed.jpg" width={500} height={500} alt="Hamilton thesis students with COCVAC" />
+      <br/>
+      <Link href="/about">Click here to learn about the developers and the project!</Link>
     </main>
   );
 }
