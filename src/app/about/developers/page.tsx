@@ -4,7 +4,7 @@ export default function about() {
       <h1>About the Developers!</h1>
       <div>We are 3 seniors at Hamilton College!</div>
       <img
-        src="./hamilton-thesis-students.png"
+        src="/hamilton-thesis-students.png"
         width={500}
         height={500}
         alt="Hamilton thesis students with COCVAC"
