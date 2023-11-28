@@ -9,7 +9,7 @@ export interface MenuItem {
   children?: MenuItem[];
 }
 
-const menuItems: MenuItem[] = [
+const documentationMenuItems: MenuItem[] = [
   {
     title: "Documentation",
     route: "/",
@@ -29,6 +29,19 @@ const menuItems: MenuItem[] = [
     ],
   },
 ];
+const aboutMenuItems: MenuItem[] = [
+  {
+    title: "About",
+    route: "/",
+    children: [
+      {
+        title: "Developers",
+        route: "/about/developers",
+      },
+      { title: "Project", route: "/about/project" },
+    ],
+  },
+];
 
 const Navbar = () => {
   return (
@@ -36,19 +49,21 @@ const Navbar = () => {
       <div className="w-full h-20 bg-green-950 sticky top-0">
         <div className="flex items-center h-full text-yellow-500">
           <Link className="ml-10" href="https://www.cocvac.org/">
-            <img src="logo.png" width={50} height={50} alt="COCVAC logo" />
+            <img src="/logo.png" width={50} height={50} alt="COCVAC logo" />
           </Link>
           <Link className="ml-12 hover:text-yellow-200" href="/">
             Home
           </Link>
-          <Link className="ml-12 hover:text-yellow-200" href="/about">
-            About
-          </Link>
+          <div className="ml-12">
+            {aboutMenuItems.map((i) => (
+              <Dropdown key={i.title} item={i} />
+            ))}
+          </div>
           <Link className="ml-12 hover:text-yellow-200" href="/report">
             Reports
           </Link>
           <div className="ml-12">
-            {menuItems.map((i) => (
+            {documentationMenuItems.map((i) => (
               <Dropdown key={i.title} item={i} />
             ))}
           </div>
