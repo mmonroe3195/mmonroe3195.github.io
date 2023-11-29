@@ -21,6 +21,12 @@ pandas - version 2.1.2
 pip - version 23.3.`
 python-dateutil - version 2.8.2
 tabula-py - version 2.8.2
+requests
+pathlib
+bs4
+openpyxl
+
+java install
 
 ## Power BI
 
