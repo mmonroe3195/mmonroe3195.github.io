@@ -1,8 +1,8 @@
 export default function Report() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between p-24">
+    <div className="flex min-h-screen flex-col items-center justify-between p-24 w-11/12 m-auto">
       <h2>Maps of where different calls occurred</h2>
-      <br/>
+      <br />
       <div>To view the various map tabs, click the arrows below.</div>
       <iframe
         className="m-1"
@@ -22,7 +22,7 @@ export default function Report() {
       ></iframe>
       <br></br>
       <div>Charts of different types of calls:</div>
-      <br/>
+      <br />
       <div>To view the various chart tabs, click the arrows below.</div>
       <iframe
         className="m-1"
@@ -31,8 +31,6 @@ export default function Report() {
         height="541.25"
         src="https://app.powerbi.com/view?r=eyJrIjoiN2EzNDlkMDgtZDhlOS00NGJjLWFiYjMtYjgyYTA2ZjViMzQ4IiwidCI6ImY5ZWE3ZjNlLWRlMjgtNDZkMS1iNjNkLTkxZDMwODZmZmY5MSIsImMiOjN9"
       ></iframe>
-
-      
     </div>
   );
 }
