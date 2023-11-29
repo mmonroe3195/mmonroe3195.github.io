@@ -1,6 +1,6 @@
 export default function Report() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between p-24 w-11/12 m-auto">
+    <div className="flex min-h-screen flex-col items-center justify-between p-24 w-10/12 m-auto">
       <h2>Maps of where different calls occurred</h2>
       <br />
       <div>To view the various map tabs, click the arrows below.</div>

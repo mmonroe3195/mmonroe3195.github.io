@@ -1,6 +1,6 @@
 export default function about() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24 w-11/12 m-auto">
+    <main className="flex min-h-screen flex-col items-center p-24 w-10/12 m-auto">
       <h1 className="text-4xl">About the Project!</h1>
       <br />
       <div>
@@ -16,6 +16,7 @@ export default function about() {
         clients with the goal of developing software that furthers social good.
         Our client for this project is COCVAC.
       </div>
+      <br />
       <h2 className="text-2xl">COCVAC</h2>
       <br />
       <img

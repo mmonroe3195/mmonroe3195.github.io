@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24 w-11/12 m-auto">
+    <main className="flex min-h-screen flex-col items-center p-24 w-10/12 m-auto">
       <div className="text-2xl">Welcome to our website</div>
       <br />
       <div>
