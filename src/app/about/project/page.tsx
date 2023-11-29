@@ -27,7 +27,7 @@ export default function about() {
       <br />
       <div>
         The Central Oneida County Volunteer Ambulance Corps provides primary 911
-        response in and around the towns, Villages and Hamlets of Kirkland,
+        response in and around the towns, villages and hamlets of Kirkland,
         Westmoreland, Whitestown, Marshal, Augusta, Sangerfield. COCVAC also
         answers mutual aid requests for the Greater Utica Rome area. COCVAC is
         also responsible for a variety of other services such as interfacility

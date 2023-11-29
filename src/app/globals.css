@@ -9,7 +9,8 @@ html {
 }
 
 main a {
-  color: blue;
+  color: #14532d;
+  text-decoration: underline;
 }
 
 h1 {
