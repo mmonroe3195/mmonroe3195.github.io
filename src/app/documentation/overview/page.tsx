@@ -1,6 +1,6 @@
 export default function Overview() {
   return (
-    <main className="flex min-h-screen flex-col items-left p-24">
+    <main className="flex min-h-screen flex-col items-left p-24 w-11/12 m-auto">
       <p>
         Welcome to the documentation! I still need to format this lol. This is
         intended to be a guide to understand each component in our thesis
