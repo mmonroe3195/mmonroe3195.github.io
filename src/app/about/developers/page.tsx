@@ -10,7 +10,7 @@ export default function about() {
       />
       <br />
 
-      <div className="flex flex-row w-fi w-screen pt-10">
+      <div className="flex flex-row w-screen pt-10">
         <div className="w-3/12 px-5 ml-auto border-r-2 border-black text-center">
           <h2 className="text-2xl">Madison</h2>
           <br />
