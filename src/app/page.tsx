@@ -19,8 +19,11 @@ export default function Home() {
         alt="Hamilton thesis students with COCVAC"
       />
       <br />
-      <Link href="/about">
-        Click here to learn about the developers and the project!
+      <Link href="/about/developers">
+        Click here to learn about the developers!
+      </Link>
+      <Link href="/about/project">
+        Click here to learn about the project!
       </Link>
     </main>
   );
