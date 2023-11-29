@@ -13,14 +13,14 @@ export default function about() {
       <div className="flex flex-row w-fi w-screen pt-10">
         <div className="w-3/12 px-5 ml-auto border-r-2 border-black text-center">
           <h2 className="text-2xl">Madison</h2>
-          <br/>
+          <br />
           <img
-          src="https://github.com/cocvac-hamilton2023/thesis_ui/blob/dev-columns/developer-madison.jpg?raw=true"
-          width={500}
-          height={500}
-          alt="picture of Madison"
+            src="https://github.com/cocvac-hamilton2023/thesis_ui/blob/dev-columns/developer-madison.jpg?raw=true"
+            width={500}
+            height={500}
+            alt="picture of Madison"
           />
-          <br/>
+          <br />
           <div>
             Hi, I am a senior computer science major at Hamilton College and am
             from CT. I am interested in full-stack development and will be
@@ -34,14 +34,14 @@ export default function about() {
         </div>
         <div className="w-3/12 px-5 border-x-2 border-black text-center">
           <h2 className="text-2xl">Sydney</h2>
-          <br/>
+          <br />
           <img
-          src="https://github.com/cocvac-hamilton2023/thesis_ui/blob/dev-columns/developer-sydney.jpeg?raw=true"
-          width={500}
-          height={500}
-          alt="picture of Sydney"
+            src="https://github.com/cocvac-hamilton2023/thesis_ui/blob/dev-columns/developer-sydney.jpeg?raw=true"
+            width={500}
+            height={500}
+            alt="picture of Sydney"
           />
-          <br/>
+          <br />
           <div>
             Hi, I&apos;m also a senior computer science major at Hamilton
             College, and I am a minor in Africana Studies. I grew up in central
@@ -54,14 +54,14 @@ export default function about() {
         </div>
         <div className="w-3/12 px-5 mr-auto border-l-2 border-black text-center">
           <h2 className="text-2xl">Charlotte</h2>
-          <br/>
+          <br />
           <img
-          src="https://github.com/cocvac-hamilton2023/thesis_ui/blob/main/hamilton-thesis-students.png?raw=true"
-          width={500}
-          height={500}
-          alt="picture of Charlotte"
+            src="https://github.com/cocvac-hamilton2023/thesis_ui/blob/main/developer-charlotte.jpeg?raw=true"
+            width={500}
+            height={500}
+            alt="picture of Charlotte"
           />
-          <br/>
+          <br />
           <div>
             Hi! I am also a senior computer science major at Hamilton College,
             and I&apos;m a minor in History. I am from Northern California, and
