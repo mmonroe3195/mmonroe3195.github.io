@@ -16,9 +16,8 @@ export default function about() {
           <br />
           <img
             src="https://github.com/cocvac-hamilton2023/thesis_ui/blob/dev-columns/developer-madison.jpg?raw=true"
-            width={180}
-            height={130}
             alt="picture of Madison"
+            className="w-64 h-48"
           />
           <br />
           <div>
@@ -37,9 +36,8 @@ export default function about() {
           <br />
           <img
             src="https://github.com/cocvac-hamilton2023/thesis_ui/blob/dev-columns/developer-sydney.jpeg?raw=true"
-            width={180}
-            height={130}
             alt="picture of Sydney"
+            className="w-64 h-48"
           />
           <br />
           <div>
@@ -57,9 +55,8 @@ export default function about() {
           <br />
           <img
             src="https://github.com/cocvac-hamilton2023/thesis_ui/blob/main/developer-charlotte.jpeg?raw=true"
-            width={180}
-            height={130}
             alt="picture of Charlotte"
+            className="w-64 h-48"
           />
           <br />
           <div>
