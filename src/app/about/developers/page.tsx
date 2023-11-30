@@ -22,13 +22,13 @@ export default function about() {
           <br />
           <div>
             Hi, I am a senior computer science major at Hamilton College and am
-            from CT. I am interested in full-stack development and will be
+            from Connecticut. I am interested in full-stack development and will be
             moving to Portland, Oregon upon graduation to work as a software
             engineer at Nike. My favorite coding language is Python and outside
             of computer science classes, I enjoy talking environmental studies
-            classes for my minor. At school, you can typically find me climbing
+            courses. At school, you can typically find me climbing
             at the school&apos;s rock wall, coding in the science center, or
-            cycling around the farms nearby Hamilton&apos;s campus.
+            cycling around Clinton.
           </div>
         </div>
         <div className="w-3/12 px-5 border-x-2 border-black text-center">
