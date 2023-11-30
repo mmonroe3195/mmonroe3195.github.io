@@ -10,7 +10,7 @@ Make sure to install the following:
 - [Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
 - [Python](https://www.python.org/downloads/). We recommend installing the newest version of Python. For help with installation, refer to the [Python Installation Video](https://www.youtube.com/watch?time_continue=163&v=Pi0RK7GJIKg&embeds_referring_euri=https%3A%2F%2Fwww.simplilearn.com%2F&source_ve_path=Mjg2NjY&feature=emb_logo) by SimpliLearn.
 - [Pip](https://pip.pypa.io/en/stable/installation/). This can be done when installing Python or can be installed separately.
-- Java
+- Java (13.0.2 works)
 
 ## Python and Pip Version
 
