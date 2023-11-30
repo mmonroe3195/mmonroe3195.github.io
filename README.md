@@ -11,11 +11,11 @@ This repository is a part of a larger senior seminar/ thesis project at Hamilton
 - Scrape [911 call data](https://ocgov.net/departments/emergency-services/911-summary-report/)
 - Convert PDFs into tabular form. See code in [this](https://github.com/sydneyetran/COCVAC_code) repository
 
-2. Create a Power Query and gateway in Power BI to automatically upload daily excel file to report
+2. Create a power query and personal gateway in Power BI to automatically upload daily excel file to report
 
-3. Create queries in Power BI to analyze data
+3. Create maps and charts in Power BI to analyze data
 
-4. Embed Power BI report into a UI and add additionally important info to the UI (ex. documentation, raw data, etc.)
+4. Embed Power BI report into a user interface and add additional info to the UI (ex. documentation, project info, etc.)
 
 ## Getting Started
 
