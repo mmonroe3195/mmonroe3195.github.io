@@ -37,7 +37,7 @@ We also utilize a [personal gateway](https://learn.microsoft.com/en-us/power-bi/
 
 ### Power BI Data Report
 
-Once the data is pulled into Power BI, it is possible to analyze and create charts/ maps to visualize the information. Once the report is built it then can be published.
+Once the data is pulled into Power BI, it is possible to analyze and create charts/ maps to visualize the information. Once the report is built, it then can be published.
 
 #### Maps
 
