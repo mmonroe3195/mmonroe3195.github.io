@@ -13,11 +13,18 @@ export default function Overview() {
           <p>Our daily Python script is the first part of our project. By using the Windows Task Scheduler, we can execute our Python code automatically at a specific time each day. The repository for our Python code is located <a href="https://github.com/sydneyetran/COCVAC_code">here</a>. </p>
           <p>There are two main jobs that our Python script completes:</p>
           <br/>
-          <h4 id="scraping-911-call-data-from-pdfs" className="text-xl">Scraping 911 Call Data From PDFs</h4>
-          <p><a href="https://ocgov.net/departments/emergency-services/911-summary-report/">911 call data for Oneida County</a> is stored online. Everyday, a new PDF containing the previous day&#39;s call data is uploaded online. We scape these PDFs using with our Python code and a variety of Python libraries. </p>
-          <br/>
-          <h4 id="converting-pdfs-to-excel" className="text-xl">Converting PDFs to Excel</h4>
-          <p>We need to convert the PDF data into a tabular form so that the data can be used later in Power BI. We are able to do this by using the following libraries: Tabula, Pandas, Openpyxl, Sysr, Requests, Pathlib, Bs4, and Openpyxl. Sys allows us to take the PDF file as an argument when running the code from the terminal. Tabula is used to read the PDF information. We use a template with Tabula so that no data is lost or missed in the conversion process. The Tabula objects are described as a list of Pandas Dataframes. We convert the Pandas dataframes into an Excel file. Openpyxl allows us to create an empty Excel file that is later edited when we add our 911 call data to the different cells. This is where the dataframe data is stored and at the end of this process, we have all of our 911 call data for the day stored in an Excel workbook.</p>
+          <div className="flex flex-row pt-10">
+            <div className="w-1/2 px-5 ml-auto border-r-2 border-black text-center">
+              <h4 id="scraping-911-call-data-from-pdfs" className="text-xl">Scraping 911 Call Data From PDFs</h4>
+              <p><a href="https://ocgov.net/departments/emergency-services/911-summary-report/">911 call data for Oneida County</a> is stored online. Everyday, a new PDF containing the previous day&#39;s call data is uploaded online. We scape these PDFs using with our Python code and a variety of Python libraries. </p>
+              <br/>
+            </div>
+
+            <div className="w-1/2 px-5 ml-auto text-center">
+            <h4 id="converting-pdfs-to-excel" className="text-xl">Converting PDFs to Excel</h4>
+            <p>We need to convert the PDF data into a tabular form so that the data can be used later in Power BI. We are able to do this by using the following libraries: Tabula, Pandas, Openpyxl, Sysr, Requests, Pathlib, Bs4, and Openpyxl. Sys allows us to take the PDF file as an argument when running the code from the terminal. Tabula is used to read the PDF information. We use a template with Tabula so that no data is lost or missed in the conversion process. The Tabula objects are described as a list of Pandas Dataframes. We convert the Pandas dataframes into an Excel file. Openpyxl allows us to create an empty Excel file that is later edited when we add our 911 call data to the different cells. This is where the dataframe data is stored and at the end of this process, we have all of our 911 call data for the day stored in an Excel workbook.</p>
+            </div>
+          </div>
           <hr className="background-color: bg-black h-0.5"/>
         </div>
 
@@ -55,14 +62,24 @@ export default function Overview() {
           <h3 id="the-user-interface" className="text-2xl">The User Interface</h3>
           <p>The main deliverable for this thesis project is our website. Our website is a centralized location to house Power BI reports, documentation, and other overview information.</p>
           <br/>
-          <h4 id="the-report" className="text-xl">The Report</h4>
-          <p>By exporting our report as an iframe, it is possible to embed it directly into our website. We also had to configure other settings to make these reports public and possible to embed in our website.</p>
-          <br/>
-          <h4 id="the-url" className="text-xl">The URL</h4>
-          <p>We are currently hosting our <a href="https://cocvac-hamilton2023.github.io/thesis_ui/">website</a> using Github Pages. This is possible since all of our code is stored <a href="https://github.com/cocvac-hamilton2023/thesis_ui/">on Github</a>.</p>
-          <br/>
-          <h4 id="the-code" className="text-xl">The Code</h4>
-          <p>We are working with the <a href="https://react.dev/">React</a> library, <a href="https://www.typescriptlang.org/">Typescript</a> (a typed version of Javascript), <a href="https://nextjs.org/">Next.js</a> (A React framework), and <a href="https://tailwindcss.com/">Tailwind CSS</a> (a CSS framework). A large reason we chose this tech stack is because these technologies are widely used in the intdustry and are powerful tools for building user interfaces.</p>
+          <div className="flex flex-row pt-10">
+            <div className="w-1/3 px-1 ml-auto text-center">
+              <h4 id="the-report" className="text-xl">The Report</h4>
+              <p>By exporting our report as an iframe, it is possible to embed it directly into our website. We also had to configure other settings to make these reports public and possible to embed in our website.</p>
+              <br/>
+            </div>
+
+            <div className="w-1/3 px-1 ml-auto text-center">
+              <h4 id="the-url" className="text-xl">The URL</h4>
+              <p>We are currently hosting our <a href="https://cocvac-hamilton2023.github.io/thesis_ui/">website</a> using Github Pages. This is possible since all of our code is stored <a href="https://github.com/cocvac-hamilton2023/thesis_ui/">on Github</a>.</p>
+              <br/>
+            </div>
+
+            <div className="w-1/3 px-1 ml-auto text-center">
+              <h4 id="the-code" className="text-xl">The Code</h4>
+              <p>We are working with the <a href="https://react.dev/">React</a> library, <a href="https://www.typescriptlang.org/">Typescript</a> (a typed version of Javascript), <a href="https://nextjs.org/">Next.js</a> (A React framework), and <a href="https://tailwindcss.com/">Tailwind CSS</a> (a CSS framework). A large reason we chose this tech stack is because these technologies are widely used in the intdustry and are powerful tools for building user interfaces.</p>
+            </div>
+          </div>
           <hr className="background-color: bg-black h-0.5"/>
         </div>
     </main>
