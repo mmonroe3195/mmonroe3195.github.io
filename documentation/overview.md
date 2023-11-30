@@ -11,7 +11,7 @@ Our daily Python script is the first part of our project. By using the Windows T
 
 There are two main jobs that our Python script completes:
 
-#### Scraping 911 Call Data PDFs
+#### Scraping 911 Call Data From PDFs
 
 [911 call data for Oneida County](https://ocgov.net/departments/emergency-services/911-summary-report/) is stored online. Everyday, a new PDF containing the previous day's call data is uploaded online. We scape these PDFs using with our Python code and a variety of Python libraries. 
 
@@ -21,23 +21,23 @@ We need to convert the PDF data into a tabular form so that the data can be used
 
 ### Folder Storage
 
-Once the Excel Workbook with a day's 911 call data is created, it is added to a folder titled "thesisexcels". This folder stores Excel Worksheets. A new workbook is stored for each day of 911 call data.
+Once the Excel Workbook with a day's 911 call data is created, it is added to a folder titled "thesisexcels". This folder stores Excel worksheets. A new workbook is stored for each day of 911 call data.
 
 ### Power BI Data Upload
 
-The next step in the process is to import data into [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi). Our original plan was to utilize [APIs from Power BI](https://learn.microsoft.com/en-us/rest/api/power-bi/) to accomplish this. This would allow us to code everything; however, we were limited due to the fact that we only had a free Power BI account. We would have needed a Pro or Premium Per User (PPU) license in order to use the the APIs or anything with [Power BI Embedded Analytics](https://learn.microsoft.com/en-us/power-bi/developer/embedded/). As a result, we looked into alternative approaches and decided to use both a Power Query and Personal Gateway to upload data.
+The next step in the process is to import data into [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi). Our original plan was to utilize [APIs from Power BI](https://learn.microsoft.com/en-us/rest/api/power-bi/) to accomplish this. This would allow us to code everything; however, we were limited due to the fact that we only had a free Power BI account. We would have needed a Pro or Premium Per User (PPU) license in order to use the the APIs or anything with [Power BI Embedded Analytics](https://learn.microsoft.com/en-us/power-bi/developer/embedded/). As a result, we looked into alternative approaches and decided to use both a power query and personal gateway to upload data.
 
 #### Power Query
 
-A [Power Query](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-query-overview#power-query-editor) can be used to connect to an external data source. We used a power query to pull data from our "thesisexcels" folder. As described above, this folder contains Excel Workbooks that have daily Oneida County call data. Once the Power Query was configured, it was possible to manually hit a refresh button in Power BI Desktop and pull in new Excel Workbook data.
+A [Power Query](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-query-overview#power-query-editor) can be used to connect reports to an external data source. We used a power query to pull data from our "thesisexcels" folder. As described above, this folder contains Excel workbooks that have daily Oneida County call data. Once the Power Query was configured, it was possible to use data pulled from Excels in Power BI reports.
 
 #### Personal Gateway
 
-We also utilize a [personal gateway](https://learn.microsoft.com/en-us/power-bi/connect-data/service-gateway-personal-mode) for our data upload. This is a way to work with on-premise/ locally stored data. A personal gateway is downloaded on the computer that has the locally stored Excels. When once a personal gateway is installed, it is possible to configure automatic refresh to update a Power BI report that is published online with locally stored Excel data. Our automatic refresh is done on a daily basis. If we did not have our personal gateway configured, we would have to manually hit the refresh button in Power BI Desktop so that newly added data from our "thesisexcels" folder could be pulled into published Power BI reports.
+We also utilize a [personal gateway](https://learn.microsoft.com/en-us/power-bi/connect-data/service-gateway-personal-mode) for our data upload. This is a way to work with on-premise/ locally stored data and get the data pulled to the cloud. A personal gateway is downloaded on the computer that has the locally stored Excels. When once a personal gateway is installed, it is possible to configure automatic refresh to update a Power BI report that is published online with locally made changes. Our automatic refresh is done on a daily basis. If we did not have our personal gateway configured, we would have to manually refresh in Power BI Desktop so that our published reports updated on the cloud each day with the new day's Excel data.
 
 ### Power BI Data Report
 
-Once the data is pulled into Power BI, it is possible to analyze and create charts/ maps to visualize the information. Once the report is built, it then can be published.
+Once the data is pulled into Power BI, it is possible to analyze and create charts/ maps to visualize the information. Once the report is built, it then can be published. Published reports can then be embedded into websites.
 
 #### Maps
 
