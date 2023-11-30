@@ -11,7 +11,7 @@ export interface MenuItem {
 
 const documentationMenuItems: MenuItem[] = [
   {
-    title: "Documentation",
+    title: "Documentation ▼",
     route: "/",
     children: [
       {
@@ -31,7 +31,7 @@ const documentationMenuItems: MenuItem[] = [
 ];
 const aboutMenuItems: MenuItem[] = [
   {
-    title: "About",
+    title: "About ▼",
     route: "/",
     children: [
       {
