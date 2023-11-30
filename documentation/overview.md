@@ -25,7 +25,7 @@ Once the Excel Workbook with a day's 911 call data is created, it is added to a 
 
 ### Power BI Data Upload
 
-The next step in the process is to import data into Power BI. Our original plan was to utilize [APIs from Power BI](https://learn.microsoft.com/en-us/rest/api/power-bi/) to accomplish this. This would allow us to code everything; however, we were limited due to the fact that we only had a free Power BI account. We would have needed a Pro or Premium Per User (PPU) license in order to use the the APIs or anything with [Power BI Embedded Analytics](https://learn.microsoft.com/en-us/power-bi/developer/embedded/). As a result, we looked into alternative approaches and decided to use both a Power Query and Personal Gateway to upload data.
+The next step in the process is to import data into [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi). Our original plan was to utilize [APIs from Power BI](https://learn.microsoft.com/en-us/rest/api/power-bi/) to accomplish this. This would allow us to code everything; however, we were limited due to the fact that we only had a free Power BI account. We would have needed a Pro or Premium Per User (PPU) license in order to use the the APIs or anything with [Power BI Embedded Analytics](https://learn.microsoft.com/en-us/power-bi/developer/embedded/). As a result, we looked into alternative approaches and decided to use both a Power Query and Personal Gateway to upload data.
 
 #### Power Query
 
