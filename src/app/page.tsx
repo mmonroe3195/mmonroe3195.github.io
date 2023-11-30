@@ -7,7 +7,7 @@ export default function Home() {
       <br />
       <div>
         This is a site created for COCVAC to display reports created in Power BI
-        using 911 call data from Oneida County.
+        using <Link href="https://ocgov.net/departments/emergency-services/911-summary-report/">911 call data from Oneida County.</Link>
       </div>
       <div>
         Please visit the <Link href="/report">Report</Link> page to learn more!

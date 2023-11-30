@@ -10,11 +10,10 @@ export default function about() {
       <br />
       <h2 className="text-2xl">CPSCI-410</h2>
       <div>
-        This course introduces methods and tools used in Human Computer
-        Interaction to design software that meets user needs. Students will work
+        CPSCI-410 Senior Seminar introduces methods and tools used in Human Computer
+        Interaction to design software that meets user needs. Students work
         in teams to design, implement, and evaluate systems for non-profit
         clients with the goal of developing software that furthers social good.
-        Our client for this project is COCVAC.
       </div>
       <br />
       <h2 className="text-2xl">COCVAC</h2>
@@ -30,11 +29,11 @@ export default function about() {
         <div className="w-5/12 px-5 ml-auto border-r-2 border-black text-center">
           <h2 className="text-2xl">COCVAC</h2>
           <div>
-            The Central Oneida County Volunteer Ambulance Corps provides primary
+            Our client for this project is the Central Oneida County Volunteer Ambulance Corps. COCVAC provides primary
             911 response in and around the towns, villages and hamlets of
             Kirkland, Westmoreland, Whitestown, Marshal, Augusta, Sangerfield.
             COCVAC also answers mutual aid requests for the Greater Utica Rome
-            area. COCVAC is also responsible for a variety of other services
+            area. Additionally, they are responsible for a variety of other services
             such as interfacility transport, special event standby, and CPR/
             First Aid Trainings.
           </div>
@@ -43,10 +42,9 @@ export default function about() {
           <h2 className="text-2xl">COCVAC/ Hamilton Collaboration</h2>
           <div>
             For this project, we are working with COCVAC to create reports based
-            on public 911 call data. We are also working to automate report
-            creation so that future call data can be automatically be scraped
-            from online, added to our Power BI reports, and published onto this
-            website.
+            on public 911 call data. We are also automating report
+            creation so that future call data can automatically be scraped, added to 
+            our Power BI reports, and published onto this website.
           </div>
         </div>
       </div>

@@ -24,8 +24,8 @@ export default function about() {
             Hi, I am a senior computer science major at Hamilton College and am
             from Connecticut. I am interested in full-stack development and will be
             moving to Portland, Oregon upon graduation to work as a software
-            engineer at Nike. My favorite coding language is Python and outside
-            of computer science classes, I enjoy talking environmental studies
+            engineer at Nike. My favorite coding language is Python. Outside
+            of computer science classes, I enjoy taking environmental studies
             courses. At school, you can typically find me climbing
             at the school&apos;s rock wall, coding in the science center, or
             cycling around Clinton.
