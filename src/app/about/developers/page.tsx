@@ -2,13 +2,7 @@ export default function about() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
       <h1 className="text-4xl pb-10">About the Developers!</h1>
-      <img
-        src="https://github.com/cocvac-hamilton2023/thesis_ui/blob/main/hamilton-thesis-students.png?raw=true"
-        width={500}
-        height={500}
-        alt="Hamilton thesis students with COCVAC"
-      />
-      <br />
+      
 
       <div className="flex flex-row w-screen pt-10">
         <div className="w-3/12 px-5 ml-auto border-r-2 border-black text-center">
