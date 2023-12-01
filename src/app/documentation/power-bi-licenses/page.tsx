@@ -12,7 +12,7 @@ export default function PowerBILicenses() {
         </a>{" "}
         exist. These include Power BI Pro and Power BI Premium. We were limited
         in regards to what we could do during the project because we did not
-        have a budget, but if a budget for these specific licenses. Below are
+        have a budget. Below are
         some recommendations for the future of the project there was budget in
         the future. Note: Power BI has{" "}
         <a href="https://www.microsoft.com/en-us/nonprofits/power-bi">
