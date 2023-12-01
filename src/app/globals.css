@@ -4,8 +4,7 @@
 
 html {
   background-color: rgb(199, 216, 194);
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 main a {
