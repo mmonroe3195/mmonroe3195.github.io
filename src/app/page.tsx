@@ -2,12 +2,15 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24 w-10/12 m-auto">
+    <main className="flex min-h-screen flex-col items-center p-24 w-10/12 m-auto text-center">
       <div className="text-2xl">Welcome to our website</div>
       <br />
       <div>
         This is a site created for COCVAC to display reports created in Power BI
-        using <Link href="https://ocgov.net/departments/emergency-services/911-summary-report/">911 call data from Oneida County.</Link>
+        using{" "}
+        <Link href="https://ocgov.net/departments/emergency-services/911-summary-report/">
+          911 call data from Oneida County.
+        </Link>
       </div>
       <div>
         Please visit the <Link href="/report">Report</Link> page to learn more!
