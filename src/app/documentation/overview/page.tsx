@@ -66,7 +66,9 @@ export default function Overview() {
               edited when we add our 911 call data to the different cells. This
               is where the dataframe data is stored and at the end of this
               process, we have all of our 911 call data for the day stored in an
-              Excel workbook.
+              Excel workbook. It is important to note that when working with
+              Windows, the required version of tabula-py is 2.7, not 2.8 or
+              newer.
             </p>
           </div>
         </div>
@@ -247,7 +249,7 @@ export default function Overview() {
               <a href="https://nextjs.org/">Next.js</a> (a React framework), and{" "}
               <a href="https://tailwindcss.com/">Tailwind CSS</a> (a CSS
               framework). A large reason we chose this tech stack is because
-              these technologies are widely used in the intdustry and are
+              these technologies are widely used in the industry and are
               powerful tools for building user interfaces.
             </p>
           </div>
