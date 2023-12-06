@@ -22,10 +22,6 @@ const documentationMenuItems: MenuItem[] = [
         title: "Power BI Licenses",
         route: "/documentation/power-bi-licenses",
       },
-      {
-        title: "Set Up",
-        route: "/documentation/set-up",
-      },
     ],
   },
 ];
