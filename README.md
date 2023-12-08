@@ -18,7 +18,8 @@ This repository is a part of a larger senior seminar/ thesis project at Hamilton
 4. Embed Power BI report into a user interface and add additional info to the UI (ex. documentation, project info, etc.)
 
 Below is a diagram that explains how our project works.
-![diagram for project steps.](https://github.com/cocvac-hamilton2023/thesis_ui/blob/main/flow_chart.png?raw=true). Click [here](https://github.com/cocvac-hamilton2023/thesis_ui/tree/main/documentation) for more information and overview on our project.
+![diagram for project steps.](https://github.com/cocvac-hamilton2023/thesis_ui/blob/main/flow_chart.png?raw=true)
+Click [here](https://github.com/cocvac-hamilton2023/thesis_ui/tree/main/documentation) for more information and documentation on our project.
 
 ## Getting Started
 
