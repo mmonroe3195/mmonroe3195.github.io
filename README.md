@@ -9,13 +9,16 @@ This repository is a part of a larger senior seminar/ thesis project at Hamilton
 1. Create a script that runs daily to:
 
 - Scrape [911 call data](https://ocgov.net/departments/emergency-services/911-summary-report/)
-- Convert PDFs into tabular form. See code in [this](https://github.com/sydneyetran/COCVAC_code) repository
+- Convert PDFs into tabular form. See code in [this](https://github.com/sydneyetran/COCVAC_code) repository for more details and to learn more about this process
 
 2. Create a power query and personal gateway in Power BI to automatically upload daily excel file to report
 
 3. Create maps and charts in Power BI to analyze data
 
 4. Embed Power BI report into a user interface and add additional info to the UI (ex. documentation, project info, etc.)
+
+Below is a diagram that explains how our project works.
+![diagram for project steps.](https://github.com/cocvac-hamilton2023/thesis_ui/blob/main/flow_chart.png?raw=true). Click [here](https://github.com/cocvac-hamilton2023/thesis_ui/tree/main/documentation) for more information and overview on our project.
 
 ## Getting Started
 
@@ -25,7 +28,7 @@ Open [https://cocvac-hamilton2023.github.io/thesis_ui/](https://cocvac-hamilton2
 
 ### Documentation
 
-To see more documentation, please navigate to our [documentation](https://github.com/cocvac-hamilton2023/thesis_ui/tree/main/documentation) folder
+To see more documentation, please navigate to our [documentation](https://github.com/cocvac-hamilton2023/thesis_ui/tree/main/documentation) folder or naviate to our [documentation website page](https://cocvac-hamilton2023.github.io/thesis_ui/documentation/overview)
 
 ### To develop:
 

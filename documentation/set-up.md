@@ -22,7 +22,7 @@ We used Python version 3.10 for this project. Other versions may work, but there
 - Pandas (version 2.1.2)
 - Pip (version 23.3.`)
 - Python-dateutil (version 2.8.2)
-- Tabula-py (version 2.8.2)
+- Tabula-py (version 2.7)
 - Requests
 - Pathlib
 - Bs4
@@ -86,7 +86,7 @@ Once this is set up, you must add a Merge Location column in the Power Query edi
 
 ### Personal Gateway
 
-To set up a personal gateway it is helpful to refer to [Microsoft Power BI Documentation](https://learn.microsoft.com/en-us/power-bi/connect-data/service-gateway-personal-mode). 
+To set up a personal gateway it is helpful to refer to [Microsoft Power BI Documentation](https://learn.microsoft.com/en-us/power-bi/connect-data/service-gateway-personal-mode). Be sure to turn off any preexisting gateways and configure daily automatic refresh for it.
 
 ## The User Interface
 
