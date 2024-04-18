@@ -44,14 +44,7 @@ const Navbar = () => {
     <>
       <div className="w-full h-20 bg-green-950 sticky top-0">
         <div className="flex items-center h-full text-yellow-500">
-          <Link className="ml-10" href="https://www.cocvac.org/">
-            <img
-              src="https://github.com/cocvac-hamilton2023/thesis_ui/blob/main/logo.png?raw=true"
-              width={50}
-              height={50}
-              alt="COCVAC logo"
-            />
-          </Link>
+          
           <Link className="ml-12 hover:text-yellow-200" href="/">
             Home
           </Link>
