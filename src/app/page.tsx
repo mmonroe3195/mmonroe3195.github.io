@@ -1,32 +1,14 @@
+'use client'
+import dynamic from "next/dynamic";
 import Link from "next/link";
+import "leaflet/dist/leaflet.css";
+const MapA = dynamic(() => import("./components/MapA"), { ssr: false });
+
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24 w-10/12 m-auto text-center">
-      <div className="text-2xl">Welcome to our website</div>
-      <br />
-      <div>
-        This is a site created for COCVAC to display reports created in Power BI
-        using{" "}
-        <Link href="https://ocgov.net/departments/emergency-services/911-summary-report/">
-          911 call data from Oneida County.
-        </Link>
-      </div>
-      <div>
-        Please visit the <Link href="/report">Report</Link> page to learn more!
-      </div>
-      <br />
-      <img
-        src="https://github.com/cocvac-hamilton2023/thesis_ui/blob/main/cocvac-hamilton-posed.jpg?raw=true"
-        width={500}
-        height={500}
-        alt="Hamilton thesis students with COCVAC"
-      />
-      <br />
-      <Link href="/about/developers">
-        Click here to learn about the developers!
-      </Link>
-      <Link href="/about/project">Click here to learn about the project!</Link>
-    </main>
+      <div className="position: absolute;"><MapA/></div>
+
   );
 }
