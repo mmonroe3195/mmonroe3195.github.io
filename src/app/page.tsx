@@ -14,7 +14,7 @@ export default function Home() {
       <div className="text-2xl font-bold">
         Welcome to my website!
       </div>
-      <p>This website was create for Professor Strongs climate change class. This project is intended to be a reflection about the local impacts of climate change near Hamilton College.</p>
+      <p>This website was create for Professor Strong&apos;s climate change class. This project is intended to be a reflection about the local impacts of climate change near Hamilton College.</p>
       </main>
         <br/>
         <br/>
