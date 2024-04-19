@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function locations() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24 w-10/12 m-auto">
-      <h1 className="text-4xl">Location 2</h1>
+      <h1 className="text-4xl">Hamilton College</h1>
       <br />
       <div>
         This project has been created for COCVAC in CPSCI-410 Senior Seminar

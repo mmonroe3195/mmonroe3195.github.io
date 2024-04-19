@@ -19,7 +19,7 @@ export default function about() {
           </div>
         </div>
         <div className="w-3/12 px-5 border-x-2 border-black text-center">
-          <h2 className="text-2xl">Location 2</h2>
+          <h2 className="text-2xl">test</h2>
           <br />
           <img
             src="https://github.com/cocvac-hamilton2023/thesis_ui/blob/dev-columns/developer-sydney.jpeg?raw=true"

@@ -32,8 +32,8 @@ const aboutMenuItems: MenuItem[] = [
     children: [
       { title: "Lake Oneida", route: "/locations/location-1",},
       { title: "Hamilton College", route: "/locations/location-2" },
-      { title: "location-3", route: "/locations/location-3" },
-      { title: "location-4", route: "/locations/location-4" },
+      { title: "Local Farms", route: "/locations/location-3" },
+      { title: "Flood Zones", route: "/locations/location-4" },
       { title: "location-5", route: "/locations/location-5" },
     ],
   },
