@@ -30,8 +30,8 @@ const aboutMenuItems: MenuItem[] = [
     title: "Locations ▼",
     route: "/",
     children: [
-      { title: "location-1", route: "/locations/location-1",},
-      { title: "location-2", route: "/locations/location-2" },
+      { title: "Lake Oneida", route: "/locations/location-1",},
+      { title: "Hamilton College", route: "/locations/location-2" },
       { title: "location-3", route: "/locations/location-3" },
       { title: "location-4", route: "/locations/location-4" },
       { title: "location-5", route: "/locations/location-5" },
@@ -53,8 +53,8 @@ const Navbar = () => {
               <Dropdown key={i.title} item={i} />
             ))}
           </div>
-          <Link className="ml-12 hover:text-text-gray-50" href="/report">
-            Reports
+          <Link className="ml-12 hover:text-text-gray-50" href="/get-involved">
+            Address Climate Change
           </Link>
           <div className="ml-12">
             {documentationMenuItems.map((i) => (

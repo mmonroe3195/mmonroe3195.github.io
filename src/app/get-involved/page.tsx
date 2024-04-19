@@ -1,4 +1,4 @@
-export default function Report() {
+export default function Getinvolved() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-between p-24 w-10/12 m-auto">
       <div className="text-center">

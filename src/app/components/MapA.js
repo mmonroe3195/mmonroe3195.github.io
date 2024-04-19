@@ -43,14 +43,14 @@ const MapA = () => {
       <Marker position={[43.050546, -75.407347]} icon={new Icon({ iconUrl : 'https://png.pngtree.com/png-clipart/20230823/original/pngtree-location-pin-gps-pinned-track-picture-image_8230346.png', iconSize: [25, 41], iconAnchor: [12, 41]})}>
         <Popup className="h-[500px] w-[700px]">
             <h1>Hamilton College</h1>
-            <Link key= {"/locations/location-1"} href={"/locations/location-1"}>Click Here To Learn More About Hamilton College and Climate Change</Link>
+            <Link key= {"/locations/location-1"} href={"/locations/location-1"}>Click Here To Learn More</Link>
             <iframe width="600" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
         </Popup>
       </Marker>
       <Marker position={[43.1722431, -75.7342189]} icon={new Icon({ iconUrl : 'https://png.pngtree.com/png-clipart/20230823/original/pngtree-location-pin-gps-pinned-track-picture-image_8230346.png', iconSize: [25, 41], iconAnchor: [12, 41]})}>
         <Popup className="h-[500px] w-[700px]">
             <h1>Lake Oneida</h1>
-            <Link key= {"/locations/location-2"} href={"/locations/location-2"}>Click Here To Learn More About Lake Oneida and Climate Change</Link>
+            <Link key= {"/locations/location-2"} href={"/locations/location-2"}>Click Here To Learn More</Link>
             <iframe width="600" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
         </Popup>
       </Marker>
