@@ -9,8 +9,14 @@ const MapA = dynamic(() => import("./components/MapA"), { ssr: false });
 export default function Home() {
   return (
       <div>
-        <h1>Welcome to my page</h1>
-        <p>testtest</p>
+        <br></br>
+        <main className="m-auto space-y-4 text-center">
+      <div className="text-2xl font-bold">
+        Welcome to my website!
+      </div>
+      <p>This website was create for Professor Strong's climate change class. This project is intended to be a reflection about the local impacts of climate change near Hamilton College.</p>
+      </main>
+        <br/>
         <br/>
         <br/>
         

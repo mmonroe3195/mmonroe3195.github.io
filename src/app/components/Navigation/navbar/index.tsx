@@ -42,8 +42,8 @@ const aboutMenuItems: MenuItem[] = [
 const Navbar = () => {
   return (
     <>
-      <div className="w-full h-20 bg-green-950 sticky top-0">
-        <div className="flex items-center h-full text-yellow-500">
+      <div className="w-full h-20 bg-blue-950 sticky top-0">
+        <div className="flex items-center h-full text-white">
           
           <Link className="ml-12 hover:text-yellow-200" href="/">
             Home
