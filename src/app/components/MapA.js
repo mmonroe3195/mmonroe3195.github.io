@@ -32,8 +32,8 @@ const TileLayer = dynamic(
 const MapA = () => {
   return (
     <MapContainer
-      center={[43.050546, -75.407347]}
-      zoom={8}
+      center={[43.084861, -75.281795]}
+      zoom={11}
       style={{ width: "100%", height: "600px" }}
     >
       <TileLayer
@@ -51,6 +51,35 @@ const MapA = () => {
         <Popup className="h-[500px] w-[700px]">
             <h1>Lake Oneida</h1>
             <Link key= {"/locations/location-2"} href={"/locations/location-2"}>Click Here To Learn More</Link>
+            <iframe width="600" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+        </Popup>
+      </Marker>
+      <Marker position={[43.073102, -75.424048]} icon={new Icon({ iconUrl : 'https://png.pngtree.com/png-clipart/20230823/original/pngtree-location-pin-gps-pinned-track-picture-image_8230346.png', iconSize: [25, 41], iconAnchor: [12, 41]})}>
+        <Popup className="h-[500px] w-[700px]">
+            <h1>Local Farm With Cows</h1>
+            <Link key= {"/locations/location-2"} href={"/locations/location-3"}>Click Here To Learn More</Link>
+            <iframe width="600" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+        </Popup>
+      </Marker>
+
+      <Marker position={[43.043329, -75.403063]} icon={new Icon({ iconUrl : 'https://png.pngtree.com/png-clipart/20230823/original/pngtree-location-pin-gps-pinned-track-picture-image_8230346.png', iconSize: [25, 41], iconAnchor: [12, 41]})}>
+        <Popup className="h-[500px] w-[700px]">
+            <h1>Hamilton Glen</h1>
+            <Link key= {"/locations/location-2"} href={"/locations/location-1"}>Click Here To Learn More</Link>
+            <iframe width="600" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+        </Popup>
+      </Marker>
+      <Marker position={[43.139467, -75.286650]} icon={new Icon({ iconUrl : 'https://png.pngtree.com/png-clipart/20230823/original/pngtree-location-pin-gps-pinned-track-picture-image_8230346.png', iconSize: [25, 41], iconAnchor: [12, 41]})}>
+        <Popup className="h-[500px] w-[700px]">
+            <h1>Erie Canal</h1>
+            <Link key= {"/locations/location-2"} href={"/locations/location-4"}>Click Here To Learn More</Link>
+            <iframe width="600" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+        </Popup>
+      </Marker>
+      <Marker position={[43.038460, -74.848669]} icon={new Icon({ iconUrl : 'https://png.pngtree.com/png-clipart/20230823/original/pngtree-location-pin-gps-pinned-track-picture-image_8230346.png', iconSize: [25, 41], iconAnchor: [12, 41]})}>
+        <Popup className="h-[500px] w-[700px]">
+            <h1>Little Falls- Erie Canal</h1>
+            <Link key= {"/locations/location-2"} href={"/locations/location-4"}>Click Here To Learn More</Link>
             <iframe width="600" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
         </Popup>
       </Marker>
