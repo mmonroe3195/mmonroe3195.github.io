@@ -27,14 +27,14 @@ const documentationMenuItems: MenuItem[] = [
 ];
 const aboutMenuItems: MenuItem[] = [
   {
-    title: "About ▼",
+    title: "Locations ▼",
     route: "/",
     children: [
-      {
-        title: "Developers",
-        route: "/about/developers",
-      },
-      { title: "Project", route: "/about/project" },
+      { title: "location-1", route: "/locations/location-1",},
+      { title: "location-2", route: "/locations/location-2" },
+      { title: "location-3", route: "/locations/location-3" },
+      { title: "location-4", route: "/locations/location-4" },
+      { title: "location-5", route: "/locations/location-5" },
     ],
   },
 ];
@@ -43,9 +43,9 @@ const Navbar = () => {
   return (
     <>
       <div className="w-full h-20 bg-blue-950 sticky top-0">
-        <div className="flex items-center h-full text-white">
+        <div className="flex items-center h-full text-gray-50	">
           
-          <Link className="ml-12 hover:text-yellow-200" href="/">
+          <Link className="ml-12 hover:text-gray-50	" href="/">
             Home
           </Link>
           <div className="ml-12">
@@ -53,7 +53,7 @@ const Navbar = () => {
               <Dropdown key={i.title} item={i} />
             ))}
           </div>
-          <Link className="ml-12 hover:text-yellow-200" href="/report">
+          <Link className="ml-12 hover:text-text-gray-50" href="/report">
             Reports
           </Link>
           <div className="ml-12">

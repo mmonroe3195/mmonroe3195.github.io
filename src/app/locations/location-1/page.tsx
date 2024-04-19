@@ -1,7 +1,7 @@
-export default function about() {
+export default function locations() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
-      <h1 className="text-4xl pb-10">About the Locations!</h1>
+      <h1 className="text-4xl pb-10">Location 1</h1>
       
 
       <div className="flex flex-row w-screen pt-10">
