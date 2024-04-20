@@ -11,15 +11,15 @@ export interface MenuItem {
 
 const documentationMenuItems: MenuItem[] = [
   {
-    title: "Documentation ▼",
+    title: "Learn More ▼",
     route: "/",
     children: [
       {
-        title: "Overview",
+        title: "Address Climate Change",
         route: "/documentation/overview",
       },
       {
-        title: "Power BI Licenses",
+        title: "Sources",
         route: "/documentation/power-bi-licenses",
       },
     ],
@@ -33,8 +33,8 @@ const aboutMenuItems: MenuItem[] = [
       { title: "Lake Oneida", route: "/locations/location-1",},
       { title: "Hamilton College", route: "/locations/location-2" },
       { title: "Local Farms", route: "/locations/location-3" },
-      { title: "Flood Zones", route: "/locations/location-4" },
-      { title: "location-5", route: "/locations/location-5" },
+      { title: "Erie Canal", route: "/locations/location-4" },
+      { title: "Oriskany Creek", route: "/locations/location-5" },
     ],
   },
 ];
@@ -48,11 +48,11 @@ const Navbar = () => {
           <Link className="ml-12 hover:text-gray-50	" href="/">
             Home
           </Link>
-          <div className="ml-12">
+          {/* <div className="ml-12">
             {aboutMenuItems.map((i) => (
               <Dropdown key={i.title} item={i} />
             ))}
-          </div>
+          </div> */}
           <Link className="ml-12 hover:text-text-gray-50" href="/get-involved">
             Address Climate Change
           </Link>
@@ -61,6 +61,21 @@ const Navbar = () => {
               <Dropdown key={i.title} item={i} />
             ))}
           </div>
+          <Link className="ml-12 hover:text-text-gray-50" href="/locations/location-1">
+            Lake Oneida
+          </Link>
+          <Link className="ml-12 hover:text-text-gray-50" href="/locations/location-2">
+            Hamilton College
+          </Link>
+          <Link className="ml-12 hover:text-text-gray-50" href="/locations/location-3">
+          Local Farms
+          </Link>
+          <Link className="ml-12 hover:text-text-gray-50" href="/locations/location-4">
+          Erie Canal
+          </Link>
+          <Link className="ml-12 hover:text-text-gray-50" href="/locations/location-5">
+          Oriskany Creek
+          </Link>
         </div>
       </div>
     </>

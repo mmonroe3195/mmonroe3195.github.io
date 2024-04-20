@@ -33,21 +33,6 @@ const MapA = () => {
   return (
     <MapContainer
       center={[43.023258, -75.323431
-
-
-
-        
-
-        
-
-
-
-        
-
-        
-
-        
-
       ]}
       zoom={10.5}
       style={{ width: "100%", height: "600px" }}
