@@ -32,8 +32,24 @@ const TileLayer = dynamic(
 const MapA = () => {
   return (
     <MapContainer
-      center={[43.084861, -75.281795]}
-      zoom={11}
+      center={[43.023258, -75.323431
+
+
+
+        
+
+        
+
+
+
+        
+
+        
+
+        
+
+      ]}
+      zoom={10.5}
       style={{ width: "100%", height: "600px" }}
     >
       <TileLayer
@@ -47,7 +63,7 @@ const MapA = () => {
             <iframe width="600" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
         </Popup>
       </Marker>
-      <Marker position={[43.1722431, -75.7342189]} icon={new Icon({ iconUrl : 'https://png.pngtree.com/png-clipart/20230823/original/pngtree-location-pin-gps-pinned-track-picture-image_8230346.png', iconSize: [25, 41], iconAnchor: [12, 41]})}>
+      <Marker position={[43.159385, -75.745690]} icon={new Icon({ iconUrl : 'https://png.pngtree.com/png-clipart/20230823/original/pngtree-location-pin-gps-pinned-track-picture-image_8230346.png', iconSize: [25, 41], iconAnchor: [12, 41]})}>
         <Popup className="h-[500px] w-[700px]">
             <h1>Lake Oneida</h1>
             <Link key= {"/locations/location-2"} href={"/locations/location-2"}>Click Here To Learn More</Link>
@@ -80,13 +96,20 @@ const MapA = () => {
         <Popup className="h-[500px] w-[700px]">
             <h1>Little Falls- Erie Canal</h1>
             <Link key= {"/locations/location-2"} href={"/locations/location-4"}>Click Here To Learn More</Link>
-            <iframe width="600" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+            <iframe width="600" height="400" src="https://www.youtube.com/embed/Qg2xsKxhYGg?si=oUh2ijyUn5H7eiFn"></iframe>
         </Popup>
       </Marker>
       <Marker position={[43.059935, -75.414698]} icon={new Icon({ iconUrl : 'https://png.pngtree.com/png-clipart/20230823/original/pngtree-location-pin-gps-pinned-track-picture-image_8230346.png', iconSize: [25, 41], iconAnchor: [12, 41]})}>
         <Popup className="h-[500px] w-[700px]">
             <h1>Hamilton Cross Country Ski Course</h1>
             <Link key= {"/locations/location-2"} href={"/locations/location-2"}>Click Here To Learn More</Link>
+            <iframe width="600" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+        </Popup>
+      </Marker>
+      <Marker position={[42.874282, -75.507494]} icon={new Icon({ iconUrl : 'https://png.pngtree.com/png-clipart/20230823/original/pngtree-location-pin-gps-pinned-track-picture-image_8230346.png', iconSize: [25, 41], iconAnchor: [12, 41]})}>
+        <Popup className="h-[500px] w-[700px]">
+            <h1>Common Thread Farm</h1>
+            <Link key= {"/locations/location-2"} href={"/locations/location-3"}>Click Here To Learn More</Link>
             <iframe width="600" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
         </Popup>
       </Marker>

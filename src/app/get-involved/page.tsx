@@ -1,4 +1,4 @@
-export default function Getinvolved() {
+export default function HowToFightClimateChange() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-between p-24 w-10/12 m-auto">
       <div className="text-center">
