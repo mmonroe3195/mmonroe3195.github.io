@@ -19,7 +19,7 @@ export default function locations() {
       <h2 className="text-2xl">Oriskany Creek</h2>
       <br/>
       <div>
-        The Oriskany Creek Flooding Information Video
+        The Oriskany Creek Flooding Video
       </div>
       <br />
       <iframe width="560" height="315" src="https://www.youtube.com/embed/5NY4v4EYulk?si=hjP1KHK5rh1urNkb" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>

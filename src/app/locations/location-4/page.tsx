@@ -19,13 +19,13 @@ export default function locations() {
       <h2 className="text-2xl">Erie Canal</h2>
       <br/>
       <div>
-        The Erie Canal Flooding Information Video (Part 1)
+        The Erie Canal Flooding Video (Part 1)
       </div>
       <br />
       <iframe width="560" height="315" src="https://www.youtube.com/embed/Qg2xsKxhYGg?si=Xqf7bZqpx8qRYUkR" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
       <br />
       <div>
-        The Erie Canal Flooding Information Video (Part 2)
+        The Erie Canal Flooding Video (Part 2)
       </div>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/Q5gLkcWaCl0?si=OWBeXYCq9I7E3fAn" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
       <br />
