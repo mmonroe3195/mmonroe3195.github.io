@@ -98,6 +98,13 @@ const MapA = () => {
             <iframe width="600" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
         </Popup>
       </Marker>
+      <Marker position={[42.971540, -75.431376]} icon={new Icon({ iconUrl : 'https://png.pngtree.com/png-clipart/20230823/original/pngtree-location-pin-gps-pinned-track-picture-image_8230346.png', iconSize: [25, 41], iconAnchor: [12, 41]})}>
+        <Popup className="h-[500px] w-[700px]">
+            <h1>Oriskany Creek</h1>
+            <Link key= {"/locations/location-2"} href={"/locations/location-5"}>Click Here To Learn More</Link>
+            <iframe width="600" height="400" src="https://www.youtube.com/embed/5NY4v4EYulk?si=hjP1KHK5rh1urNkb"></iframe>
+        </Popup>
+      </Marker>
     </MapContainer>
     
   );
