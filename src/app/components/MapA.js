@@ -80,7 +80,7 @@ const MapA = () => {
       <Marker position={[43.038460, -74.848669]} icon={new Icon({ iconUrl : 'https://png.pngtree.com/png-clipart/20230823/original/pngtree-location-pin-gps-pinned-track-picture-image_8230346.png', iconSize: [25, 41], iconAnchor: [12, 41]})}>
         <Popup className="h-[500px] w-[700px]">
             <h1>Little Falls- Erie Canal</h1>
-            <p>While at Hamilton, I have taken trips to Little Falls by the Erie Canal around a dozen times. I've also biked to the Erie Canal. I really enjoy this canal, but climate change has been causing flooding issues around it.</p>
+            <p>While at Hamilton, I have taken trips to Little Falls by the Erie Canal around a dozen times. I&apos;ve also biked to the Erie Canal. I really enjoy this canal, but climate change has been causing flooding issues around it.</p>
             <Link key= {"/locations/location-2"} href={"/locations/location-4"}>Click Here To Learn More</Link>
             <iframe width="600" height="400" src="https://www.youtube.com/embed/Qg2xsKxhYGg?si=oUh2ijyUn5H7eiFn"></iframe>
         </Popup>
