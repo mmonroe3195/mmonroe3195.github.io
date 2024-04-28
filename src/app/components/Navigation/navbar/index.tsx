@@ -16,11 +16,11 @@ const documentationMenuItems: MenuItem[] = [
     children: [
       {
         title: "Address Climate Change",
-        route: "/documentation/overview",
+        route: "/get-involved",
       },
       {
         title: "Sources",
-        route: "/documentation/power-bi-licenses",
+        route: "/sources",
       },
     ],
   },
@@ -48,22 +48,9 @@ const Navbar = () => {
           <Link className="ml-12 hover:text-gray-50	" href="/">
             Home
           </Link>
-          {/* <div className="ml-12">
-            {aboutMenuItems.map((i) => (
-              <Dropdown key={i.title} item={i} />
-            ))}
-          </div> */}
-          <Link className="ml-12 hover:text-text-gray-50" href="/get-involved">
-            Address Climate Change
-          </Link>
-          <div className="ml-12">
-            {documentationMenuItems.map((i) => (
-              <Dropdown key={i.title} item={i} />
-            ))}
-          </div>
-          <Link className="ml-12 hover:text-text-gray-50" href="/locations/location-1">
+          {/* <Link className="ml-12 hover:text-text-gray-50" href="/locations/location-1">
             Lake Oneida
-          </Link>
+          </Link> */}
           <Link className="ml-12 hover:text-text-gray-50" href="/locations/location-2">
             Hamilton College
           </Link>
@@ -76,6 +63,11 @@ const Navbar = () => {
           <Link className="ml-12 hover:text-text-gray-50" href="/locations/location-5">
           Oriskany Creek
           </Link>
+          <div className="ml-12">
+            {documentationMenuItems.map((i) => (
+              <Dropdown key={i.title} item={i} />
+            ))}
+          </div>
         </div>
       </div>
     </>
