@@ -5,57 +5,45 @@ export default function locations() {
     <main className="flex min-h-screen flex-col items-center p-24 w-10/12 m-auto">
       <h1 className="text-4xl">Hamilton College</h1>
       <br />
+      
+      <h2 className="text-2xl">Background Information</h2>
+      <p>
+        Add
+      </p>
+      <br />
+      <br />
+      <h2 className="text-2xl">Hamilton College</h2>
+      <br/>
       <div>
-        This project has been created for COCVAC in CPSCI-410 Senior Seminar
-        with Professor Morrison-Smith.
+        Hamilton College Video
       </div>
       <br />
-      <img
-        src="https://github.com/cocvac-hamilton2023/thesis_ui/blob/main/hamilton-thesis-students.png?raw=true"
-        width={500}
-        height={500}
-        alt="Hamilton thesis students with COCVAC"
-      />
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Qg2xsKxhYGg?si=Xqf7bZqpx8qRYUkR" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
       <br />
-      <h2 className="text-2xl">CPSCI-410</h2>
       <div>
-        CPSCI-410 Senior Seminar introduces methods and tools used in Human Computer
-        Interaction to design software that meets user needs. Students work
-        in teams to design, implement, and evaluate systems for non-profit
-        clients with the goal of developing software that furthers social good.
+        The Erie Canal Flooding Video (Part 2)
       </div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Q5gLkcWaCl0?si=OWBeXYCq9I7E3fAn" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
       <br />
-      <h2 className="text-2xl">The Project Client</h2>
-      <br />
-      <img
-        src="https://github.com/cocvac-hamilton2023/thesis_ui/blob/main/cocvac-building.jpeg?raw=true"
-        width={800}
-        height={800}
-        alt="COCVAC building"
-      />
       <br />
       <div className="flex flex-row w-screen pt-10">
         <div className="w-5/12 px-5 ml-auto border-r-2 border-black text-center">
-          <h2 className="text-2xl">COCVAC</h2>
+          <h2 className="text-2xl">Erie Canal Flooding Information</h2>
           <div>
-            Our client for this project is <Link href="https://www.cocvac.org/">the Central Oneida County Volunteer Ambulance Corps</Link>. 
-            COCVAC provides primary
-            911 response in and around the towns, villages and hamlets of
-            Kirkland, Westmoreland, Whitestown, Marshal, Augusta, Sangerfield.
-            COCVAC also answers mutual aid requests for the Greater Utica Rome
-            area. Additionally, they are responsible for a variety of other services
-            such as interfacility transport, special event standby, and CPR/
-            First Aid Trainings.
+            The Erie Canal is sometimes subject to flooding following extreme rainfall events. For instance, in 2011 and in 2019, several locks including the Little Falls Lock E17 was shut down to boat traffic
+            after severe flooding. NY is currently trying to address this flooding. In their <Link href="https://www.canals.ny.gov/news/Executive_Summary_063023.pdf">2023 Upstate NY Flood Mitigation Task Force Report</Link>,
+            they put forth a series of plans to address modify, restore, and create infrastructure to reduce the extent of the flooding. These types of projects are often quite expensive. 
           </div>
         </div>
         <div className="w-5/12 px-5 mr-auto border-l-2 border-black text-center">
-          <h2 className="text-2xl">COCVAC/ Hamilton Collaboration</h2>
+          <h2 className="text-2xl">Additional Information/ Articles</h2>
           <div>
-            For this project, we are working with COCVAC to create reports based
-            on public <Link href="https://ocgov.net/departments/emergency-services/911-summary-report/">911 call data</Link>. We are also automating report
-            creation so that future call data can automatically be scraped, added to 
-            our Power BI reports, and published onto this website. To learn more about the technical steps,
-            please visit our  <Link href="http://localhost:3000/documentation/overview">overview page.</Link>
+          <p>2011 Little Falls Lock Shutdown:</p>
+          <Link href="https://www.syracuse.com/news/2011/11/state_canal_system_reopens_to.html">https://www.syracuse.com/news/2011/11/state_canal_system_reopens_to.html</Link> <br/><br/>
+          <p>Past Government Adaption Strategy:</p>
+          <Link href="https://www.timesunion.com/local/article/8-canal-dams-may-be-rebuilt-4173514.php">https://www.timesunion.com/local/article/8-canal-dams-may-be-rebuilt-4173514.php</Link><br/><br/>
+          <p>2019 Canal Shutdown:</p>
+          <Link href="https://www.canals.ny.gov/wwwapps/tas/notices/ntm.aspx?id=1325">https://www.canals.ny.gov/wwwapps/tas/notices/ntm.aspx?id=1325</Link><br/><br/>
           </div>
         </div>
       </div>
