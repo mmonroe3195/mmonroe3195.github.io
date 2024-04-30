@@ -9,7 +9,7 @@ export default function locations() {
       <h2 className="text-2xl">Background Information</h2>
       <p>
       Farms are a common sight around the Clinton and Kirkland communities. They&apos;re a major type of employment
-            for locals, and won&apos;t be spared from the impacts of climate change. In particular, dairy farming, apple 
+            for locals, but won&apos;t be spared from the impacts of climate change. In particular, dairy farming, apple 
             harvests, and corn growth will be negatively affected by climate change.
       </p>
       <br />
