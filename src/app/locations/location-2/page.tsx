@@ -9,7 +9,7 @@ export default function locations() {
       <h2 className="text-2xl">Project Background Information</h2>
       <p>
         This project is mainly about the impacts of climate change near Hamilton College.
-        Feel free to click the various locations on the dropdown to learn more about 
+        Feel free to click the various locations in the dropdown to learn more about 
         different locations or watch the following video to learn about impacts directly on campus.
       </p>
       <br />
