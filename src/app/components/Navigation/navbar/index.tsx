@@ -48,11 +48,8 @@ const Navbar = () => {
           <Link className="ml-12 hover:text-gray-50	" href="/">
             Home
           </Link>
-          {/* <Link className="ml-12 hover:text-text-gray-50" href="/locations/location-1">
-            Lake Oneida
-          </Link> */}
           <Link className="ml-12 hover:text-text-gray-50" href="/locations/location-2">
-            Hamilton College
+            Overview
           </Link>
           <Link className="ml-12 hover:text-text-gray-50" href="/locations/location-3">
           Local Farms
