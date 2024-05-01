@@ -18,11 +18,11 @@ export default function HowToFightClimateChange() {
           fight these climate lies.
           <br/> <br/>
 
-          If you are a Hamilton student, consider taking classes in the <Link className ="font-medium text-blue-600 dark:text-blue-500 hover:underline"href="https://www.hamilton.edu/academics/departments/environmental-studies">environmental studies department</Link> like climate change.
+          If you are a Hamilton student, consider taking classes in the <Link className ="font-medium text-blue-600 dark:text-blue-500 hover:underline"href="https://www.hamilton.edu/academics/departments/environmental-studies">environmental studies department</Link> like Climate Change.
           <br/> <br/> <br/>
           <h2 className="text-xl font-bold">2. Take Action:</h2>
           There are many different ways to take action against climate change. Here is an article that I really
-          like that is intended to guide action. <br/>
+          like that is intended to guide action: <br/>
           <Link className ="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://www.nytimes.com/2020/01/10/opinion/sunday/how-to-help-climate-change.html">https://www.nytimes.com/2020/01/10/opinion/sunday/how-to-help-climate-change.html</Link> <br/>
         </div>
       </div>

@@ -8,8 +8,8 @@ export default function locations() {
       
       <h2 className="text-2xl">Background Information</h2>
       <p>
-      Farms are a common sight around the Clinton and Kirkland communities. They&apos;re a major type of employment
-            for locals, but won&apos;t be spared from the impacts of climate change. In particular, dairy farming, apple 
+      Farms are a common sight around the Clinton and Kirkland. They&apos;re a major type of employment
+            for locals, but won&apos;t be spared from climate change. In particular, dairy farming, apple 
             harvests, and corn growth will be negatively affected by climate change.
       </p>
       <br />
@@ -30,8 +30,9 @@ export default function locations() {
           <div>
           The Clinton and Kirkland Climate Change Vulnerability Assessment explains the likely impact of climate change on local agriculture. 
           A lot of local farms focus on dairy farming, but according to the report, rising temperatures will negatively impact average milk 
-          production per cow. For instance, they found that there is an expected annual loss in cow milk during summer months. This ranges anywhere from 
-          70- 90.6 gallons per cow on average based on whether or not RCP 4.5 or 8.5 is used.
+          production per cow. For instance, they found that there is an expected annual loss in cow milk during summer months from 2020- 2080. This ranges from 
+          70- 90.6 gallons per cow on average based on whether or not RCP 4.5 or 8.5 is used. In other words, for each year between
+          2020 to 2080, on average a cow will make 70- 90.6 less gallons of milk than it would in an ideal climate. 
           Apples will also be impacted by climate change. As warming occurs, the bud date of apples will shift to earlier in the season. If there is a spring frost afterwards, it can diminish the likelihood of apple survival. This has already been harming local farmers, and as warming continues, the severity will worsen unless adaptation occurs.
           </div>
         </div>

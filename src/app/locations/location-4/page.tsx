@@ -34,9 +34,9 @@ export default function locations() {
         <div className="w-5/12 px-5 ml-auto border-r-2 border-black text-center">
           <h2 className="text-2xl">Erie Canal Flooding Information</h2>
           <div>
-            The Erie Canal is sometimes subject to flooding following extreme rainfall events. For instance, in 2011 and in 2019, several locks including the Little Falls Lock E17 was shut down to boat traffic
+            The Erie Canal often floods following extreme rainfall events. For instance, in 2011 and in 2019, several locks including the Little Falls Lock E17 was shut down to boat traffic
             after severe flooding. NY is currently trying to address this flooding. In their <Link href="https://www.canals.ny.gov/news/Executive_Summary_063023.pdf">2023 Upstate NY Flood Mitigation Task Force Report</Link>,
-            they put forth a series of plans to address modify, restore, and create infrastructure to reduce the extent of the flooding. These types of projects are often quite expensive. 
+            they put forth a series of plans to address, modify, and create infrastructure to reduce the extent of the flooding. 
           </div>
         </div>
         <div className="w-5/12 px-5 mr-auto border-l-2 border-black text-center">

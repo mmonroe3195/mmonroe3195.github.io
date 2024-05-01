@@ -75,7 +75,7 @@ export default function locations() {
           exacerbated due to climate change. According to the Clinton and Kirkland Climate Change Vulnerability Assessment, 
           <q>Across the Clinton and Kirkland community, more places will flood with greater frequency and 
           intensity as the climate continues to change</q> (13). This flooding currently occurs in places
-           like Oriskany and Sherman Brook. These floods have already been disrupting residents over the years. 
+           like Oriskany and Sherman Brook. These floods have been disrupting residents over the years. 
            For instance, in 2017,
             several homes were evacuated due to flooding. This also impacted local transit 
             since a large sink hole formed in the middle of route 12B (12B is the section of road 
