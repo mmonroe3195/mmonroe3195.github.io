@@ -17,10 +17,10 @@ export default function locations() {
       <h2 className="text-2xl">Local Farms</h2>
       <br/>
       <div>
-        Agriculture Video
+        Farms and Climate Change Video
       </div>
       <br />
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Qg2xsKxhYGg?si=Xqf7bZqpx8qRYUkR" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/RBpfkuWtcjg?si=xTvn9ROvcSw9AaKL" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
       <br />
       
       <br />

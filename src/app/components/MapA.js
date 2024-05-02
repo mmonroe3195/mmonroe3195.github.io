@@ -43,10 +43,10 @@ const MapA = () => {
       />
       <Marker position={[43.073102, -75.424048]} icon={new Icon({ iconUrl : 'https://png.pngtree.com/png-clipart/20230823/original/pngtree-location-pin-gps-pinned-track-picture-image_8230346.png', iconSize: [25, 41], iconAnchor: [12, 41]})}>
         <Popup className="h-[500px] w-[700px]">
-            <h1>Local Farm With Cows</h1>
-            <p>I often bike by this farm, and others near Hamilton&apos;s campus. These farms are being harmed by the changing climate.</p>
+            <h1>Local Farm</h1>
+            <p>I often bike by this farm and others near Hamilton&apos;s campus. These farms are being harmed by the changing climate.</p>
             <Link key= {"/locations/location-2"} href={"/locations/location-3"}>Click Here To Learn More</Link>
-            <iframe width="600" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+            <iframe width="600" height="400" src="https://www.youtube.com/embed/RBpfkuWtcjg?si=xTvn9ROvcSw9AaKL"></iframe>
         </Popup>
       </Marker>
 
